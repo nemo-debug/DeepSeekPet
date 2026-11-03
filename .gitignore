@@ -1,0 +1,38 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- PyInstaller 打包中间产物 ----
+build/
+# 打包成品（约 46MB）不入库，发布走 GitHub Releases
+dist/
+
+# ---- 测试/调试残留截图 ----
+# *_check.png
+
+# ---- 运行时数据（真实数据在用户目录 ~/.deepseek_pet/，此处仅防御）----
+*.log
+.deepseek_pet/
+
+# ---- 环境变量与密钥 ----
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.json
+config.local.json
+
+# ---- 编辑器 / 系统 ----
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
