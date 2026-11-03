@@ -6,9 +6,10 @@
 
 ## 直接使用
 
-双击 `dist/大肥鱼.exe` 即可启动，不需要安装 Python。
+到 [Releases](https://github.com/nemo-debug/DeepSeekPet/releases) 下载 `大肥鱼.exe`，双击即可启动，不需要安装 Python。
 
-> 单文件打包，首次启动约 2~3 秒（要解压 Qt 运行时），之后常驻内存约 80MB。
+> 单文件打包（约 46MB），首次启动约 2~3 秒（要解压 Qt 运行时），之后常驻内存约 80MB。
+> 想自己打包就 `python pet.py` 直接跑，或按文末命令用 PyInstaller 生成到 `dist/`（该目录不入库）。
 
 ## 怎么玩
 
