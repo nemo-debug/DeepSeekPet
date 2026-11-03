@@ -2,8 +2,6 @@
 
 一个住在 Windows 桌面上的鲸鱼娘，会提醒你要做的事，也会时不时夸你两句。
 
-![预览](preview_ui.png)
-
 ## 直接使用
 
 到 [Releases](https://github.com/nemo-debug/DeepSeekPet/releases) 下载 `大肥鱼.exe`，双击即可启动，不需要安装 Python。
